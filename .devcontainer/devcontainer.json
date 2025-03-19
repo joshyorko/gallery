@@ -19,7 +19,11 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "zsh"
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "remote.extensionKind": {
+          "sema4ai.sema4ai": ["workspace"],
+          "sema4ai.sema4ai-data-access": ["workspace"]
+        }
       },
       "extensions": [
         "ms-python.python",
