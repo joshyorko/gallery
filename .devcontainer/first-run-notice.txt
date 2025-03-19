@@ -1,0 +1,22 @@
+👋 Welcome to the Sema4.ai Development Environment!
+
+This repository contains:
+    - Ready-made agents for tasks like sales contact finding and payment reconciliation
+    - Reusable action packages for integrations with Microsoft, Google, HubSpot and more
+    - Example implementations and demos showcasing Sema4.ai capabilities
+
+Environment details:
+    - Base image: mcr.microsoft.com/devcontainers/base:ubuntu-24.04
+    - Workspace mount: /workspaces
+    - Docker in Docker
+    - ohmyzsh
+    - uv
+    - rcc cli
+    - Action-Server cli
+    - agent-cli
+    - Extensions:
+        - Sema4ai SDK
+        - Sema4ai Data Server
+        - Python
+        - Docker
+
