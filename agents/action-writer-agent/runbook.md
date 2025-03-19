@@ -28,9 +28,9 @@ documentation: https://github.com/...
 dependencies:
   conda-forge:
   - python=3.10.14
-  - uv=0.4.17
+  - uv=0.6.8
   pypi:
-  - sema4ai-actions=1.0.1
+  - sema4ai-actions=1.3.6
 
 packaging:
   # By default, all files and folders in this directory are packaged when uploaded.

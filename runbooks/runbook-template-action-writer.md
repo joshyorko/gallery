@@ -19,8 +19,11 @@ name: MindsDB
 # Required: A description of what's in the action package.
 description: Interact with MindsDB
 
-# Required: The version of the action package.
+# Required: The semantic-version of the action package.
 version: 0.0.1
+
+# Required: The version spec of the action package.
+version-spec: v2
 
 # Required: A link to where the documentation on the package lives.
 documentation: https://github.com/...
@@ -28,9 +31,9 @@ documentation: https://github.com/...
 dependencies:
   conda-forge:
   - python=3.10.14
-  - uv=0.4.17
+  - uv=0.6.8
   pypi:
-  - sema4ai-actions=1.0.1
+  - sema4ai-actions=1.3.6
 
 packaging:
   # By default, all files and folders in this directory are packaged when uploaded.
